@@ -1385,6 +1385,9 @@ body.outlook p {
 .move-img {
   margin: 0 auto; }
 
+.container-backgound {
+  background: #f0f2ea !important; }
+
 .about-summer-text {
   text-transform: uppercase;
   color: #636758; }
@@ -1427,25 +1430,24 @@ hr {
   margin: 0 !important; }
 
 .footer-header {
-  color: black; }
+  color: black;
+  font-weight: bold; }
 
 .footer-right-wrapper {
   margin-left: 42px; }
-  .footer-right-wrapper ul {
-    padding: 0 !important;
-    margin-top: 0 !important;
-    list-style: none; }
-    .footer-right-wrapper ul li {
-      display: inline-block;
-      margin-right: 5px; }
+  .footer-right-wrapper .columns {
+    padding-left: 0 !important; }
 
 bg-cont {
   background: transparent; }
 
 @media only screen and (max-width: 616px) {
   .footer-right-wrapper {
+    padding: 0;
     margin-top: 10px;
     margin-left: 16px !important; }
+    .footer-right-wrapper table {
+      margin: 0 !important; }
   .img-more-1 {
     margin: 15px auto !important; }
   .img-more-2 {
