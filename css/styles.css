@@ -1447,7 +1447,8 @@ bg-cont {
     margin-top: 10px;
     margin-left: 16px !important; }
     .footer-right-wrapper table {
-      margin: 0 !important; }
+      margin: 0 !important;
+      width: 150px !important; }
   .img-more-1 {
     margin: 15px auto !important; }
   .img-more-2 {
