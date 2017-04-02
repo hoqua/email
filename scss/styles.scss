@@ -1,0 +1,84 @@
+@import "foundation";
+
+
+.move-img{
+  margin:0 auto;
+}
+
+
+.about-summer-text{
+  text-transform: uppercase;
+  color: #636758;
+}
+.nopadding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.best-articles-text{
+  text-transform: uppercase;
+  color: #484a43;
+  font-weight: bold;
+}
+.img-more-1{
+  margin-left: 7px;
+  margin-bottom: 10px;
+}
+.img-more-2{
+  margin-right: 6px;
+  margin-bottom: 10px;
+}
+.row-padding {
+  h4 {
+    padding-left: 14px !important;
+  }
+  p {
+    padding-left: 14px !important;
+  }
+}
+h4{
+  color: $accent;
+}
+a{
+  font-weight: bold;
+}
+hr{
+ max-width: 540px;
+  margin: 38px 0;
+}
+.footer-text {
+    font-size: 11px!important;
+    margin: 0!important;
+}
+.footer-header{
+  color: black;
+}
+.footer-right-wrapper{
+  margin-left: 42px;
+  ul {
+    padding: 0!important;
+    margin-top:0!important;
+    list-style: none;
+    li {
+      display: inline-block;
+      margin-right: 5px;
+    }
+
+  }
+
+}
+
+bg-cont{
+  background: transparent;
+}
+@media only screen and (max-width: #{$global-breakpoint}) {
+  .footer-right-wrapper{
+    margin-top: 10px;
+    margin-left: 16px!important;
+  }
+  .img-more-1{
+    margin: 15px auto!important;
+  }
+  .img-more-2{
+    margin: 15px auto!important;
+  }
+}
