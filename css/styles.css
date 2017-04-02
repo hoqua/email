@@ -1382,6 +1382,9 @@ body.outlook p {
   padding-top: 16px;
   padding-bottom: 16px; }
 
+.white-row {
+  background-color: white !important; }
+
 .move-img {
   margin: 0 auto; }
 
